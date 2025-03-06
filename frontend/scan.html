@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Scan Document</h1>
+        <nav><a href="dashboard.html">Dashboard</a></nav>
+    </header>
+    <main>
+        <form id="scanForm">
+            <label for="file">Upload Document (Text File):</label>
+            <input type="file" id="file" accept=".txt" required>
+            <button type="submit">Scan</button>
+        </form>
+        <h3>Matches</h3>
+        <ul id="matches"></ul>
+    </main>
+    <script src="js/scan.js"></script>
+</body>
+</html>

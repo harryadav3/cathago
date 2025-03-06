@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="profile.html">Profile</a> | 
+            <a href="scan.html">Scan</a> | 
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome, <span id="username"></span></h2>
+        <p>Credits Remaining: <span id="credits"></span></p>
+        <button onclick="requestCredits()">Request More Credits</button>
+    </main>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

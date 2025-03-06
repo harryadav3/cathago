@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+form label, form input, form button {
+    margin-bottom: 10px;
+}
+button {
+    padding: 5px 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    padding: 5px 0;
+}
